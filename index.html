@@ -3,11 +3,58 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Basic Website</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Code Documentation</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Welcome to My Website</h1>
-  <p>This is a very basic webpage hosted on GitHub Pages.</p>
+  <header>
+    <div class="logo">AppDocs</div>
+    <nav>
+      <ul>
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#examples">Examples</a></li>
+        <li><a href="#conclusion">Conclusion</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="overview">
+      <h1>"Documentation is a love letter that you write to your future self." – Damian Conway</h1>
+      <p>Feel free to use this layout as you highlight important features or guides to assist your developers.</p>
+    </section>
+
+    <section id="examples">
+      <h2>Code Examples with switch</h2>
+      <p>Here is an example of how the <code>switch</code> statement is used:</p>
+      <div class="code-block">
+        <pre>
+<code>
+import { TransformType } from 'library-name';
+
+const exampleFunction = (value: string) => {
+  switch (value) {
+    case 'example1':
+      return 'Example Result 1';
+    case 'example2':
+      return 'Example Result 2';
+    default:
+      return 'Default Result';
+  }
+};
+</code>
+        </pre>
+      </div>
+    </section>
+
+    <section id="conclusion">
+      <h2>Conclusion</h2>
+      <p>Thank you for choosing us. Feel empowered to share your work, simplify your documentation, and make it accessible. Happy documenting!</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 AppDocs. All Rights Reserved.</p>
+  </footer>
 </body>
 </html>
